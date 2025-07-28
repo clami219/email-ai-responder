@@ -277,7 +277,6 @@ def main():
     OPENAI_KEY = "#######################"
 
     openai_client = OpenAI(
-       base_url='https://47v4us7kyypinfb5lcligtc3x40ygqbs.lambda-url.us-east-1.on.aws/v1/',
        api_key=OPENAI_KEY
     )
 
